@@ -1,0 +1,46 @@
+# Files that will be pushed to GitHub: Bharathihub/product_page
+
+## Configuration Files:
+- .eslintrc.cjs (ESLint configuration)
+- .gitignore (Git ignore rules)
+- package.json (Project dependencies)
+- package-lock.json (Dependency lock file)
+- vite.config.js (Vite build configuration)
+- vercel.json (Vercel deployment config)
+- README.md (Project documentation)
+- index.html (Main HTML file)
+
+## Source Code - Components:
+- src/App.jsx (Main app component)
+- src/main.jsx (App entry point)
+- src/index.css (Global styles)
+
+## React Components:
+- src/components/AuthModal.jsx + AuthModal.css
+- src/components/CartDrawer.jsx + CartDrawer.css
+- src/components/Header.jsx + Header.css
+- src/components/Hero.jsx + Hero.css
+- src/components/ProductCard.jsx + ProductCard.css
+
+## Pages:
+- src/pages/CartPage.jsx + CartPage.css
+- src/pages/ContactPage.jsx + ContactPage.css
+- src/pages/HelpPage.jsx + HelpPage.css
+- src/pages/Home.jsx + Home.css
+- src/pages/ProductDetail.jsx + ProductDetail.css
+- src/pages/ProductDetailPage.jsx + ProductDetailPage.css
+- src/pages/ProductsPage.jsx + ProductsPage.css
+
+## Context & Services:
+- src/context/CartContext.jsx (Shopping cart state)
+- src/context/UserContext.jsx (User authentication state)
+- src/services/api.js (API calls to Fake Store API)
+- src/utils/productMapper.js (Product data transformation)
+
+## VS Code Settings:
+- .vscode/settings.json
+
+## Vite Cache (will be ignored by .gitignore in future):
+- .vite/deps/ folder and contents
+
+Total: ~50+ files ready for GitHub deployment!

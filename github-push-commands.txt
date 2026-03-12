@@ -1,0 +1,19 @@
+# GitHub Push Commands for Bharathihub/product_page
+
+# Step 1: Add your GitHub repository as remote
+git remote add origin https://github.com/Bharathihub/product_page.git
+
+# Step 2: Rename branch to main (if needed)
+git branch -M main
+
+# Step 3: Push to GitHub
+git push -u origin main
+
+# Alternative: If you get authentication errors, use:
+# git push -u origin main --force
+
+# Note: Make sure you have created the repository "product_page" on GitHub first!
+# Go to: https://github.com/new
+# Repository name: product_page
+# Make it Public
+# Don't initialize with README
