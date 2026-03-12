@@ -12,6 +12,5 @@ export default defineConfig({
         main: './index.html'
       }
     }
-  },
-  base: './'
+  }
 })
